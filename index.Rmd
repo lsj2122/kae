@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "A Year With My Kae Bae"
 output: 
   html_document:
     toc: true
@@ -7,6 +7,6 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# Happy Anniversary
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+<img src="pics/pic1.jpg" style="width:75%">
