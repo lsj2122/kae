@@ -9,7 +9,7 @@ navbar:
       href: timeline.html
     - text: "Map of Dates"
       href: map.html
-    - text: "The Data Doesn't Lie"
+    - text: "The Data Don't Lie"
       href: graph.html
     - text: "Animals"
       href: animals.html
@@ -19,4 +19,4 @@ navbar:
       href: mailto:<you@youremail.com>
 output:
   html_document:
-    theme: cerulean
+    theme: journal
