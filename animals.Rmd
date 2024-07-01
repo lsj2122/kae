@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Animals"
 output: 
   html_document:
     toc: true
@@ -7,6 +7,6 @@ output:
     theme: cerulean
 ---
 
-# History of Us
+# Random Animals
 
 
