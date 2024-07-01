@@ -4,9 +4,63 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: journal
+    theme: lumen
 ---
 
-# Happy Anniversary
+<style>
+  body {
+    background-image: url('pics/pic3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+  }
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  .title-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  h1 {
+    color: #000000;
+  }
+  h2, h3 {
+    color: #000000;
+  }
+  hr {
+    border: 2px solid #03C03C;
+  }
+</style>
 
-<img src="pics/pic1.jpg" style="width:75%">
+<div class="title-box">
+  <h1>Happy Anniversary 💖</h1>
+</div>
+
+<div class="content-box">
+  <img src="pics/pic1.jpg" style="width:75%; border: 5px solid #000; border-radius: 10px;">
+  <h2>To my dearest Kae Bae 💕</h2>
+  <p style="font-size: 18px;">This past year with you has been the most amazing year of my life, filled with so many giggles and squeezes and just pure bliss . I can't wait for all the years to come. 🥰</p>
+</div>
+
+<hr>
+
+<div class="content-box">
+  <h3>Our Journey 🌟</h3>
+  <p style="font-size: 16px;">From our first date to now, every moment has been unforgettable. Here's to many more adventures together! 🚀</p>
+  <img src="pics/pic4.jpg" style="width:50%; border: 3px solid #000; border-radius: 10px;">
+</div>
+
+<hr>
+
+<div class="content-box">
+  <h3>Memories 📸</h3>
+  <p style="font-size: 16px;">Our memories are treasures that I will cherish forever. 🥂</p>
+  <img src="pics/pic5.jpg" style="width:50%; border: 3px solid #000; border-radius: 10px;">
+</div>
