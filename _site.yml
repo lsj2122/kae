@@ -1,14 +1,22 @@
-name: "Yay internet!"
+name: "Anniversary"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "The Story of Us"
       href: about.html
+    - text: "Our Timeline"
+      href: timeline.html
+    - text: "Map of Dates"
+      href: map.html
+    - text: "The Data Doesn't Lie"
+      href: graph.html
+    - text: "Animals"
+      href: animals.html
+    - text: "Wall of Kael and Layl"
+      href: wall.html
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>
-    - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
 output:
   html_document:
     theme: cerulean
