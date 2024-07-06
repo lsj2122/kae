@@ -7,6 +7,46 @@ output:
     theme: journal
 ---
 
-# Map of Dates
+```{r setup, include=FALSE}
+library(leaflet)
+```
+
+```{r, echo=FALSE}
+dates <- data.frame(
+  place = c("Cira Green", "Sunflower Field"),
+  lat = c(39.953678, 40.228111),
+  lng = c(-75.189819, -74.887222)
+)
+```
+
+```{r, echo=FALSE}
+map <- leaflet(dates) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  setView(lng = mean(dates$lng), lat = mean(dates$lat), zoom = 6) %>%
+  addMarkers(~lng, ~lat, popup = ~place, label = ~place)
+
+```
+
+```{r, echo=FALSE}
+map
+```
+
+<style>
+  body {
+    background-image: url('pics/forest.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+  }
+  .leaflet-container {
+    height: 600px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+</style>
 
 
