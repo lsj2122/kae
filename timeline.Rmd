@@ -1,5 +1,5 @@
 ---
-title: "Our Timeline"
+title:
 output: 
   html_document:
     toc: true
@@ -76,6 +76,11 @@ output:
   }
   .content p {
     font-size: 18px;
+  }
+   .timeline-header {
+    color: #006400;
+    text-align: left;
+    font-style: italic;
   }
   .icon {
     position: absolute;
