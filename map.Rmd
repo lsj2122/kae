@@ -1,5 +1,5 @@
 ---
-title: "Map of Dates"
+title: 
 output: 
   html_document:
     toc: true
@@ -9,26 +9,6 @@ output:
 
 ```{r setup, include=FALSE}
 library(leaflet)
-```
-
-```{r, echo=FALSE}
-dates <- data.frame(
-  place = c("Cira Green", "Sunflower Field"),
-  lat = c(39.953678, 40.228111),
-  lng = c(-75.189819, -74.887222)
-)
-```
-
-```{r, echo=FALSE}
-map <- leaflet(dates) %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
-  setView(lng = mean(dates$lng), lat = mean(dates$lat), zoom = 6) %>%
-  addMarkers(~lng, ~lat, popup = ~place, label = ~place)
-
-```
-
-```{r, echo=FALSE}
-map
 ```
 
 <style>
@@ -47,6 +27,44 @@ map
     margin: 0 auto;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   }
+ .map-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .map-header {
+    color: #006400;
+    text-align: center;
+    font-style: italic;
+  }
 </style>
 
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
+<div class="map-box">
+  <h1 class="map-header">Map of Our Dates</h1>
+  <p class="map-section">The map below pinpoints the locations of all the dates we have had together during this
+  amazing year, I hope to continue to map them until this whole globe is covered in blue.</p>
+  
+
+
+```{r, echo=FALSE}
+dates <- data.frame(
+  place = c("Cira Green", "Lancaster Walk", "Sunflower Field", "Dim Sum", "Vegan Food Festival", "Musuem of Art", "Bar Bombon", "The Chipped Cup", "Tomo", "Monster Vegan", "Ro's Diner", "The Apollo", "MoMa", "Little Red Lighthouse", "Red Room", "United Palace", "Next Stop Vegan", "Kiana Lede Concert", "Pumpkin Patch", "March on Washington for Palestine", "Saint Harrison Concert", "Olfactory", "Ladybird", "The Woo Woo", "Public Health Conference", "Cadence", "Bareburger", "Ocean City"),
+  lat = c(39.953678, 39.9574174, 40.228111, 39.9555389, 40.224, 39.965, 39.951, 40.828, 39.952, 39.947, 40.708, 40.810, 40.761, 40.850, 40.726, 40.846, 40.691, 40.735, 40.754, 38.895, 40.710, 40.734, 40.726, 40.760, 39.299, 40.727, 40.794, 39.226),
+  lng = c(-75.189819, -75.1907371, -74.887222, -75.2008631, -73.999, -75.181, -75.171, -73.948, -75.144, -75.162, -73.941, -73.950, -73.977, -73.947, -73.990, -73.938, -73.991, -73.989, -73.949, -77.029, -73.963, -74.004, -73.985, -73.987, -76.593, -73.985, -73.963, -74.640)
+)
+```
+
+```{r, echo=FALSE}
+map <- leaflet(dates) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  setView(lng = mean(dates$lng), lat = mean(dates$lat), zoom = 6) %>%
+  addMarkers(~lng, ~lat, popup = ~place, label = ~place)
+
+```
+
+```{r, echo=FALSE}
+map
+```
