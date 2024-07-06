@@ -1,5 +1,5 @@
 ---
-title: "Animals"
+title: 
 output: 
   html_document:
     toc: true
@@ -7,6 +7,79 @@ output:
     theme: journal
 ---
 
-# Random Animals
+![](https://media1.popsugar-assets.com/files/thumbor/kR0kBFAAMyC7f5oPfJYTrgiypgE=/fit-in/660x450/top/filters:format_auto():upscale()/2015/08/18/672/n/1922243/82359bd1a4564340_catgif4.gif)
 
+![](https://media1.popsugar-assets.com/files/thumbor/6y34u5VKSVwKq7RJiKpmH3WPNAs=/fit-in/1280x720/top/filters:format_auto():upscale()/2015/10/23/676/n/1922243/9e9d1e90f98c4794_wAhaQam_-_Imgur.gif)
 
+![](https://media1.tenor.com/images/8e9c7d1b678bc4f4169a8349c7f43121/tenor.gif)
+
+![](https://www.icegif.com/wp-content/uploads/icegif-4249.gif)
+
+![](https://media3.giphy.com/media/3o72FcJmCKPIsCXvWE/giphy.gif)
+
+![](https://media4.giphy.com/media/3o6gbchrcNtxlV9a92/giphy.gif)
+
+![](https://media3.giphy.com/media/l4FGpP4lxGGgK5CBW/giphy.gif)
+
+![](https://media1.giphy.com/media/KC1Szxhy8zIEc/giphy.gif)
+
+![](https://media1.tenor.com/images/f0f0b0ad393c3c508bbff287402d8bbf/tenor.gif)
+
+![](https://media3.giphy.com/media/l1J9qn6JcC3JgDxzi/giphy.gif)
+
+![](https://i.pinimg.com/originals/1f/fb/e4/1ffbe45377632a10d2cf4b69c5e06e8b.gif)
+
+![](https://media3.giphy.com/media/xTiTnxmVRMkmF5qf7a/giphy.gif)
+
+![](https://media3.giphy.com/media/xUPGcAjLly5pIv45RK/giphy.gif)
+
+![](https://media3.giphy.com/media/xUPGcAjLly5pIv45RK/giphy.gif)
+
+![](https://media3.giphy.com/media/xTiTnxmVRMkmF5qf7a/giphy.gif)
+
+![](https://media1.tenor.com/images/8e9c7d1b678bc4f4169a8349c7f43121/tenor.gif)
+
+![](https://cheezburger.com/7625684480)
+
+![](https://media1.tenor.com/images/8e9c7d1b678bc4f4169a8349c7f43121/tenor.gif)
+
+<style>
+  body {
+    background-image: url('pics/forest.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+  }
+  .animal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .animal {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+  }
+  .animal img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .animal h2 {
+    color: #006400;
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  .animal p {
+    font-size: 16px;
+    color: #333333;
+  }
+</style>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
