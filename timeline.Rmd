@@ -102,71 +102,128 @@ output:
 
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
-</body>
-</html>
 <div class="timeline">
-<h1 class="timeline-header">Our Timeline</h1>
+  <h1 class="timeline-header">Our Timeline</h1>
   <div class="timeline-entry left">
-    <div class="icon">🌟</div>
-    <div class="content">
-      <h2>March 20, 2022</h2>
-      <p>We met for the first time at Cira Green. </p>
-    </div>
+    🌟 October 22nd, 2021: Met at Cira Green for the first time
   </div>
   <div class="timeline-entry right">
-    <div class="icon">📚</div>
-    <div class="content">
-      <h2>September 10, 2022</h2>
-      <p>Fate brought us together in a shared classroom. Our conversations started to blossom.</p>
-    </div>
+    📚 September 20th, 2022: Had Dr. Morrison's Multicultural Issues in Psychology class together on Tuesdays and Thursdays
   </div>
   <div class="timeline-entry left">
-    <div class="icon">🌻</div>
-    <div class="content">
-      <h2>October 15, 2022</h2>
-      <p>Our first date at the sunflower field. You looked stunning amidst the golden blooms.</p>
-    </div>
+    🛋 September 28th, 2022: Kept me company at the Involvement Fair table
   </div>
   <div class="timeline-entry right">
-    <div class="icon">💔</div>
-    <div class="content">
-      <h2>December 5, 2022</h2>
-      <p>We drifted apart for a while. It was a time of regret and longing.</p>
-    </div>
+    📱 October 1st, 2022: You texted me for the first time saying you were listening to Rod Wave
   </div>
   <div class="timeline-entry left">
-    <div class="icon">❤️</div>
-    <div class="content">
-      <h2>February 14, 2023</h2>
-      <p>We reconnected, and I vowed never to let you go again.</p>
-    </div>
+    🎶 October 7th, 2022: Made my Laylah Waylah playlist
   </div>
   <div class="timeline-entry right">
-    <div class="icon">🎓</div>
-    <div class="content">
-      <h2>May 20, 2023</h2>
-      <p>The weeks before graduation were magical. Late nights, deep talks, and unforgettable memories.</p>
-    </div>
+    🌻 October 20th, 2022: Our first official date at the Sunflower field
   </div>
   <div class="timeline-entry left">
-    <div class="icon">💋</div>
-    <div class="content">
-      <h2>June 10, 2023</h2>
-      <p>Our first kiss. It felt like heaven.</p>
-    </div>
+    💔 December 8th, 2022: The day Laylah was a dummy and let the love of her life go
   </div>
   <div class="timeline-entry right">
-    <div class="icon">💍</div>
-    <div class="content">
-      <h2>June 25, 2023</h2>
-      <p>We officially became a couple. Your 'yes' was the sweetest sound.</p>
-    </div>
+    🔥 March 21st, 2023: SOCPSY Board hot pot outing and you touched my thigh and rizzed me up
   </div>
   <div class="timeline-entry left">
-    <div class="icon">🎉</div>
-    <div class="content">
-      <h2>June 25, 2024</h2>
-      <p>One year anniversary. A year filled with love, adventures, and countless amazing memories.</p>
-    </div>
+    📩 April 17th, 2023: Slid into your DMs to try and win you back
+  </div>
+  <div class="timeline-entry right">
+    🌱 June 9th, 2023: Second date at the Vegan Food Fest
+  </div>
+  <div class="timeline-entry left">
+    🎨 June 13th, 2023: Day at the Museum of Art
+  </div>
+  <div class="timeline-entry right">
+    🎓 June 15th, 2023: Graduation day
+  </div>
+  <div class="timeline-entry left">
+    🔒 June 17th, 2023: Broke into Stratton at night
+  </div>
+  <div class="timeline-entry right">
+    🗓️ June 19th-July 2nd: We did a trial run of long distance before we were even dating
+  </div>
+  <div class="timeline-entry left">
+    ❤️ July 10th, 2023: The day we became girlfriends, lovers, and partners in crime
+  </div>
+  <div class="timeline-entry right">
+    🍣 July 13th, 2023: Sushi date
+  </div>
+  <div class="timeline-entry left">
+    👾 July 14th, 2023: First time experiencing Monster Vegan
+  </div>
+  <div class="timeline-entry right">
+    🔥 August 4th, 2023: Did shrooms together on the fire escape
+  </div>
+  <div class="timeline-entry left">
+    📽️ August 10th, 2023: One month anniversary at the theatre (You having a laughing attack at the little boy dressed as an old person saying "alien creatures")
+  </div>
+  <div class="timeline-entry right">
+    🌊 August 17th, 2023: You met my crazy aunts and cousins for the first time at the beach
+  </div>
+  <div class="timeline-entry left">
+    🍛 August 21st, 2023: First struggle meal together on my bedroom floor
+  </div>
+  <div class="timeline-entry right">
+    🍷 August 22, 2023: First double date with other lesbians (Amir & Mikayla)
+  </div>
+  <div class="timeline-entry left">
+    🎤 August 23rd, 2023: Apollo Night
+  </div>
+  <div class="timeline-entry right">
+    🥤 August 29th, 2023: Orientation week together (we stole so many can waters lmao)
+  </div>
+  <div class="timeline-entry left">
+    🌮 August 31st, 2023: Made those BUSS black bean tacos for the first time
+  </div>
+  <div class="timeline-entry right">
+    🖼️ September 1st, 2023: MoMa date
+  </div>
+  <div class="timeline-entry left">
+    🚶 September 3rd, 2023: Long ass walk to the red lighthouse
+  </div>
+  <div class="timeline-entry right">
+    😂 September 12th, 2023: Red Room comedy show date
+  </div>
+  <div class="timeline-entry left">
+    🔍 September 24th, 2023: Only Murders in the Building popup
+  </div>
+  <div class="timeline-entry right">
+    🎤 October 3rd, 2023: Kiana Lede concert
+  </div>
+  <div class="timeline-entry left">
+    🎃 October 14th, 2023: Pumpkin (calabasa) patch
+  </div>
+  <div class="timeline-entry right">
+    👻 October 28th, 2023: We dressed as Mimes for Anj's halloween party
+  </div>
+  <div class="timeline-entry left">
+    ✊ November 4th, 2023: March on Washington for Palestine
+  </div>
+  <div class="timeline-entry right">
+    🎤 November 15th, 2023: Saint Harrison concert
+  </div>
+  <div class="timeline-entry left">
+    🎂 December 9th, 2023: Birthday date of perfume making and to our fav Ladybird!!
+  </div>
+  <div class="timeline-entry right">
+    🦷 December 15th, 2023: Nursed me back to health after my wisdom teeth removal
+  </div>
+  <div class="timeline-entry left">
+    💃 December 19th, 2023: The Woo Woo
+  </div>
+  <div class="timeline-entry right">
+    🌴 January 4th, 2024: Our first Baecation to Morroco and the Canary Islands
+  </div>
+  <div class="timeline-entry left">
+    🎟 February 10th, 2024: 6th month anniversary and first valentines day together
   </div>
 </div>
+  <div class="timeline-entry right">
+    🎟️ March 8th, 20244 :Second baecation to Colombiaaa
+  </div>
+</div>
+  
