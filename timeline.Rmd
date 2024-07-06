@@ -108,13 +108,15 @@ output:
     🌟 October 22nd, 2021: Met at Cira Green for the first time
   </div>
   <div class="timeline-entry right">
-    📚 September 20th, 2022: Had Dr. Morrison's Multicultural Issues in Psychology class together on Tuesdays and Thursdays
+    📚 September 20th, 2022: Had Dr. Morrison's Multicultural Issues in 
+    Psychology class together on Tuesdays and Thursdays
   </div>
   <div class="timeline-entry left">
     🛋 September 28th, 2022: Kept me company at the Involvement Fair table
   </div>
   <div class="timeline-entry right">
-    📱 October 1st, 2022: You texted me for the first time saying you were listening to Rod Wave
+    📱 October 1st, 2022: You texted me for the first time saying you were 
+    listening to Rod Wave
   </div>
   <div class="timeline-entry left">
     🎶 October 7th, 2022: Made my Laylah Waylah playlist
@@ -122,11 +124,9 @@ output:
   <div class="timeline-entry right">
     🌻 October 20th, 2022: Our first official date at the Sunflower field
   </div>
-  <div class="timeline-entry left">
-    💔 December 8th, 2022: The day Laylah was a dummy and let the love of her life go
-  </div>
   <div class="timeline-entry right">
-    🔥 March 21st, 2023: SOCPSY Board hot pot outing and you touched my thigh and rizzed me up
+    🔥 March 21st, 2023: SOCPSY Board hot pot outing and you touched my 
+    thigh and rizzed me up
   </div>
   <div class="timeline-entry left">
     📩 April 17th, 2023: Slid into your DMs to try and win you back
@@ -144,10 +144,12 @@ output:
     🔒 June 17th, 2023: Broke into Stratton at night
   </div>
   <div class="timeline-entry right">
-    🗓️ June 19th-July 2nd: We did a trial run of long distance before we were even dating
+    🗓️ June 19th-July 2nd: We did a trial run of long distance before we
+    were even dating
   </div>
   <div class="timeline-entry left">
-    ❤️ July 10th, 2023: The day we became girlfriends, lovers, and partners in crime
+    ❤️ July 10th, 2023: The day we became girlfriends, lovers, and 
+    partners in crime
   </div>
   <div class="timeline-entry right">
     🍣 July 13th, 2023: Sushi date
@@ -159,10 +161,13 @@ output:
     🔥 August 4th, 2023: Did shrooms together on the fire escape
   </div>
   <div class="timeline-entry left">
-    📽️ August 10th, 2023: One month anniversary at the theatre (You having a laughing attack at the little boy dressed as an old person saying "alien creatures")
+    📽️ August 10th, 2023: One month anniversary at the theatre (You having a
+    laughing attack at the little boy dressed as an old person saying 
+    "alien creatures")
   </div>
   <div class="timeline-entry right">
-    🌊 August 17th, 2023: You met my crazy aunts and cousins for the first time at the beach
+    🌊 August 17th, 2023: You met my crazy aunts and cousins for the first
+    time at the beach
   </div>
   <div class="timeline-entry left">
     🍛 August 21st, 2023: First struggle meal together on my bedroom floor
@@ -174,7 +179,8 @@ output:
     🎤 August 23rd, 2023: Apollo Night
   </div>
   <div class="timeline-entry right">
-    🥤 August 29th, 2023: Orientation week together (we stole so many can waters lmao)
+    🥤 August 29th, 2023: Orientation week together (we stole so many canned
+    waters lmao)
   </div>
   <div class="timeline-entry left">
     🌮 August 31st, 2023: Made those BUSS black bean tacos for the first time
@@ -207,10 +213,12 @@ output:
     🎤 November 15th, 2023: Saint Harrison concert
   </div>
   <div class="timeline-entry left">
-    🎂 December 9th, 2023: Birthday date of perfume making and to our fav Ladybird!!
+    🎂 December 9th, 2023: Birthday date to perfume making and to our
+    fav Ladybird!!
   </div>
   <div class="timeline-entry right">
-    🦷 December 15th, 2023: Nursed me back to health after my wisdom teeth removal
+    🦷 December 15th, 2023: Nursed me back to health after my wisdom
+    teeth removal
   </div>
   <div class="timeline-entry left">
     💃 December 19th, 2023: The Woo Woo
@@ -219,43 +227,34 @@ output:
     🌴 January 4th, 2024: Our first Baecation to Morroco and the Canary Islands
   </div>
   <div class="timeline-entry left">
-    💕 February 10th, 2024: 6th month anniversary and first valentines day together
+    💕 February 10th, 2024: 6th month anniversary and first valentines
+    day together
   </div>
-</div>
   <div class="timeline-entry right">
     🇨🇴 ️ March 8th, 2024: Second baecation to Colombiaaa
   </div>
-</div>
   <div class="timeline-entry left">
     📱️ March 15th, 2024: Our first time being robbery victims together
   </div>
-</div>
   <div class="timeline-entry right">
     ⛺️ April 20th, 2024: Stayed at the encampment together
   </div>
-</div>
   <div class="timeline-entry left">
     🕴 March 10th, 2024: Weekend in Philly for Mark's bday
   </div>
-</div>
   <div class="timeline-entry right">
     🌊 May 11th, 2024: Spent time in Ocean City with my family
   </div>
-</div>
   <div class="timeline-entry left">
     😢 May 27th, 2024: Cried in the airport together as you left for your aPEX
   </div>
-</div>
   <div class="timeline-entry right">
     📅 May 28th-August 19th, 2024: Missed you like crazy (and still will)
   </div>
-</div>
   <div class="timeline-entry left">
     🎉 July 10th, 2024: ONE YEAR ANNIVERSARY!!!!!
   </div>
-</div>
   <div class="timeline-entry right">
     🇯🇴 August 21st, 2024: Reunited in Jordan at last
   </div>
 </div>
-
