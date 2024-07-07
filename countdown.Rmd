@@ -1,0 +1,77 @@
+---
+title:
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: journal
+---
+
+<audio autoplay>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<style>
+  body {
+    background-image: url('pics/forest1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #006400;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  .countdown-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .countdown-header h1 {
+    color: #006400;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .countdown-header p {
+    color: #006400;
+    font-size: 20px;
+  }
+  #countdown {
+    font-size: 72px;
+    color: #006400;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+</style>
+
+<div class="countdown-header">
+  <h1>Official Countdown Until I See You Again</h1>
+  <p>I miss you more than words can even put together, I can't wait until I can hold you again.</p>
+</div>
+
+
+<div id="countdown"></div>
+
+<script>
+  const countDownDate = new Date("Aug 21, 2024 23:59:59").getTime();
+  const countdownFunction = setInterval(function() {
+    const now = new Date().getTime();
+    const distance = countDownDate - now;
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    if (distance < 0) {
+      clearInterval(countdownFunction);
+      document.getElementById("countdown").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+</script>

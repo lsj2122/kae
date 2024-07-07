@@ -13,6 +13,8 @@ navbar:
       href: animals.html
     - text: "Wall of Kael and Layl"
       href: wall.html
+    - text: "Countdown"
+      href: countdown.html
     - icon: fa-envelope fa-lg
       href: mailto:<laylahjones1@gmail.com>
 output:

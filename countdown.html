@@ -11,7 +11,7 @@
 
 
 
-<title>wall.knit</title>
+<title>countdown.knit</title>
 
 <script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -360,93 +360,76 @@ div.tocify {
 </div>
 
 
+<audio autoplay>
+<source src="song.mp3" type="audio/mpeg">
+</audio>
 <style>
   body {
-    background-image: url('pics/forest.jpg');
+    background-image: url('pics/forest1.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: #006400;
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
-  }
-  .wall-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
-    background-image: url('pics/stone_wall.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    border-radius: 10px;
-    margin: 20px auto;
-    max-width: 90%;
-  }
-  .wall-container img {
-    width: 30%;
-    margin: 1.00%;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  .wall-container img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  }
-  .wall-header {
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     text-align: center;
+  }
+  .countdown-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .countdown-header h1 {
+    color: #006400;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .countdown-header p {
+    color: #006400;
+    font-size: 20px;
+  }
+  #countdown {
+    font-size: 72px;
     color: #006400;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
-    margin: 20px auto;
-    max-width: 800px;
-  }
-  
-  .wall-header h1 {
-    color: #006400;
   }
 </style>
-<p><link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"></p>
-<div class="wall-header">
+<div class="countdown-header">
 <h1>
-Wall of Kael &amp; Layl
+Official Countdown Until I See You Again
 </h1>
 <p>
-A collection of our cherished moments together
+I miss you more than words can even put together, I can’t wait until I
+can hold you again.
 </p>
 </div>
-<div class="wall-container">
-<p><img src="pics/wall_1.jpg" /> <img src="pics/wall_2.jpg" /> <img
-src="pics/wall_3.jpg" /> <img src="pics/wall_4.jpg" /> <img
-src="pics/wall_5.jpg" /> <img src="pics/wall_6.jpg" /> <img
-src="pics/wall_7.jpg" /> <img src="pics/wall_8.jpg" /> <img
-src="pics/wall_9.jpg" /> <img src="pics/wall_10.jpg" /> <img
-src="pics/wall_11.jpg" /> <img src="pics/wall_12.jpg" /> <img
-src="pics/wall_13.jpg" /> <img src="pics/wall_14.jpg" /> <img
-src="pics/wall_15.jpg" /> <img src="pics/wall_16.jpg" /> <img
-src="pics/wall_17.jpg" /> <img src="pics/wall_18.jpg" /> <img
-src="pics/wall_19.jpg" /> <img src="pics/wall_20.jpg" /> <img
-src="pics/wall_21.jpg" /> <img src="pics/wall_22.jpg" /> <img
-src="pics/wall_23.jpg" /> <img src="pics/wall_24.jpg" /> <img
-src="pics/wall_25.jpg" /> <img src="pics/wall_26.jpg" /> <img
-src="pics/wall_27.jpg" /> <img src="pics/wall_28.jpg" /> <img
-src="pics/wall_29.jpg" /> <img src="pics/wall_30.jpg" /> <img
-src="pics/wall_31.jpg" /> <img src="pics/wall_32.jpg" /> <img
-src="pics/wall_33.jpg" /> <img src="pics/wall_34.JPG" /> <img
-src="pics/wall_35.JPG" /> <img src="pics/wall_36.JPG" /> <img
-src="pics/wall_37.JPG" /> <img src="pics/wall_38.JPG" /> <img
-src="pics/wall_39.JPG" /> <img src="pics/wall_40.JPG" /> <img
-src="pics/wall_41.JPG" /> <img src="pics/wall_42.JPG" /> <img
-src="pics/wall_43.JPG" /> <img src="pics/wall_44.JPG" /> <img
-src="pics/wall_45.JPG" /> <img src="pics/wall_46.JPG" /> <img
-src="pics/wall_47.JPG" /> <img src="pics/wall_48.JPG" /> <img
-src="pics/wall_49.JPG" /> <img src="pics/wall_50.JPG" /> <img
-src="pics/wall_51.JPG" /> <img src="pics/wall_52.JPG" /> <img
-src="pics/wall_53.JPG" /> <img src="pics/wall_54.JPG" /> <img
-src="pics/wall_55.JPG" /> <img src="pics/wall_56.JPG" /> <img
-src="pics/wall_57.JPG" /> <img src="pics/wall_58.JPG" /> <img
-src="pics/wall_59.JPG" /> <img src="pics/wall_60.jpg" /></p>
+<div id="countdown">
+
 </div>
+<script>
+  const countDownDate = new Date("Aug 21, 2024 23:59:59").getTime();
+  const countdownFunction = setInterval(function() {
+    const now = new Date().getTime();
+    const distance = countDownDate - now;
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    if (distance < 0) {
+      clearInterval(countdownFunction);
+      document.getElementById("countdown").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+</script>
 
 
 
