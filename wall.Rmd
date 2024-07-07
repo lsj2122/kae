@@ -1,5 +1,5 @@
 ---
-title: "Wall of Kael and Layl"
+title:
 output: 
   html_document:
     toc: true
@@ -7,6 +7,119 @@ output:
     theme: journal
 ---
 
-# The Great Wall
+<style>
+  body {
+    background-image: url('pics/forest.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #006400;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+  }
+  .wall-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-image: url('pics/stone_wall.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 90%;
+  }
+  .wall-container img {
+    width: 30%;
+    margin: 1.00%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .wall-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  .wall-header {
+    text-align: center;
+    color: #006400;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .wall-header h1 {
+    color: #006400;
+  }
+</style>
 
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
+<div class="wall-header">
+  <h1>Wall of Kael & Layl</h1>
+  <p>A collection of our cherished moments together</p>
+</div>
+
+<div class="wall-container">
+  ![](pics/wall_1.jpg)
+  ![](pics/wall_2.jpg)
+  ![](pics/wall_3.jpg)
+  ![](pics/wall_4.jpg)
+  ![](pics/wall_5.jpg)
+  ![](pics/wall_6.jpg)
+  ![](pics/wall_7.jpg)
+  ![](pics/wall_8.jpg)
+  ![](pics/wall_9.jpg)
+  ![](pics/wall_10.jpg)
+  ![](pics/wall_11.jpg)
+  ![](pics/wall_12.jpg)
+  ![](pics/wall_13.jpg)
+  ![](pics/wall_14.jpg)
+  ![](pics/wall_15.jpg)
+  ![](pics/wall_16.jpg)
+  ![](pics/wall_17.jpg)
+  ![](pics/wall_18.jpg)
+  ![](pics/wall_19.jpg)
+  ![](pics/wall_20.jpg)
+  ![](pics/wall_21.jpg)
+  ![](pics/wall_22.jpg)
+  ![](pics/wall_23.jpg)
+  ![](pics/wall_24.jpg)
+  ![](pics/wall_25.jpg)
+  ![](pics/wall_26.jpg)
+  ![](pics/wall_27.jpg)
+  ![](pics/wall_28.jpg)
+  ![](pics/wall_29.jpg)
+  ![](pics/wall_30.jpg)
+  ![](pics/wall_31.jpg)
+  ![](pics/wall_32.jpg)
+  ![](pics/wall_33.jpg)
+  ![](pics/wall_34.jpg)
+  ![](pics/wall_35.jpg)
+  ![](pics/wall_36.jpg)
+  ![](pics/wall_37.jpg)
+  ![](pics/wall_38.jpg)
+  ![](pics/wall_39.jpg)
+  ![](pics/wall_40.jpg)
+  ![](pics/wall_41.jpg)
+  ![](pics/wall_42.jpg)
+  ![](pics/wall_43.jpg)
+  ![](pics/wall_44.jpg)
+  ![](pics/wall_45.jpg)
+  ![](pics/wall_46.jpg)
+  ![](pics/wall_47.jpg)
+  ![](pics/wall_48.jpg)
+  ![](pics/wall_49.jpg)
+  ![](pics/wall_50.jpg)
+  ![](pics/wall_51.jpg)
+  ![](pics/wall_52.jpg)
+  ![](pics/wall_53.jpg)
+  ![](pics/wall_54.jpg)
+  ![](pics/wall_55.jpg)
+  ![](pics/wall_56.jpg)
+  ![](pics/wall_57.jpg)
+  ![](pics/wall_58.jpg)
+  ![](pics/wall_59.jpg)
+  ![](pics/wall_60.jpg)
+</div>

@@ -12,7 +12,7 @@ output:
     background-image: url('pics/forest.jpg');
     background-size: cover;
     background-attachment: fixed;
-    color: #000000;
+    color: #006400;
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
   }
