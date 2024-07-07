@@ -9,14 +9,12 @@ navbar:
       href: timeline.html
     - text: "Map of Dates"
       href: map.html
-    - text: "The Data Don't Lie"
-      href: graph.html
     - text: "Animals"
       href: animals.html
     - text: "Wall of Kael and Layl"
       href: wall.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<laylahjones1@gmail.com>
 output:
   html_document:
     theme: journal
