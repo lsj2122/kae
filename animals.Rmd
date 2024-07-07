@@ -7,25 +7,6 @@ output:
     theme: journal
 ---
 
-![](https://media1.popsugar-assets.com/files/thumbor/kR0kBFAAMyC7f5oPfJYTrgiypgE=/fit-in/660x450/top/filters:format_auto():upscale()/2015/08/18/672/n/1922243/82359bd1a4564340_catgif4.gif)
-
-![](https://media1.popsugar-assets.com/files/thumbor/6y34u5VKSVwKq7RJiKpmH3WPNAs=/fit-in/1280x720/top/filters:format_auto():upscale()/2015/10/23/676/n/1922243/9e9d1e90f98c4794_wAhaQam_-_Imgur.gif)
-
-![](https://media1.popsugar-assets.com/files/thumbor/sWaFs8h2rhzps86ag-esNDMPUCQ=/fit-in/500x384/top/filters:format_auto():upscale()/2015/08/18/670/n/1922243/1d6bd4a248828670_catgif1.gif)
-
-![](https://giphy.com/gifs/bear-life-zvB5hlgabJWeI)
-
-![](https://giphy.com/gifs/bear-animal-polar-AAIYDMjsxkv3q)
-
-![](https://giphy.com/gifs/storyful-animals-bears-funny-qjtqEScZudXnnbnbz4)
-
-![](https://giphy.com/gifs/dance-bird-wH8s0Ntwgh5YI)
-
-![](https://giphy.com/gifs/perfect-loops-zlVf2eSgXIFFuTnEhz)
-
-![]()
-
-
 <style>
   body {
     background-image: url('pics/forest.jpg');
@@ -35,34 +16,51 @@ output:
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
   }
-  .animal-container {
+  .gif-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 10px;
     margin-top: 20px;
   }
-  .animal {
-    background-color: rgba(255, 255, 255, 0.8);
+  .gif-container img {
+    width: 30%;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    width: 250px;
   }
-  .animal img {
-    border-radius: 10px;
-    width: 100%;
-  }
-  .animal h2 {
+  .animals-header {
     color: #006400;
-    font-size: 22px;
-    margin: 10px 0;
-  }
-  .animal p {
-    font-size: 16px;
-    color: #333333;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
   }
 </style>
 
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<div class="gif-container">
+  <h1 class="animals-header">WHERE ARE THE ANIMALS</h1>
+  ![](https://media1.popsugar-assets.com/files/thumbor/kR0kBFAAMyC7f5oPfJYTrgiypgE=/fit-in/660x450/top/filters:format_auto():upscale()/2015/08/18/672/n/1922243/82359bd1a4564340_catgif4.gif)
+  ![](https://media1.popsugar-assets.com/files/thumbor/6y34u5VKSVwKq7RJiKpmH3WPNAs=/fit-in/1280x720/top/filters:format_auto():upscale()/2015/10/23/676/n/1922243/9e9d1e90f98c4794_wAhaQam_-_Imgur.gif)
+  ![](https://media1.popsugar-assets.com/files/thumbor/sWaFs8h2rhzps86ag-esNDMPUCQ=/fit-in/500x384/top/filters:format_auto():upscale()/2015/08/18/670/n/1922243/1d6bd4a248828670_catgif1.gif)
+  ![](https://media.tenor.com/LAJ89QZOsEwAAAAM/raccoon-raccoon-goofy.gif)
+  ![](https://i0.wp.com/images.onwardstate.com/uploads/2016/05/giphy-gif-11.gif?fit=500%2C375&ssl=1)
+  ![](https://i0.wp.com/onwardstate.com/wp-content/uploads/2016/05/giphy-gif-1.gif)
+  ![](https://media.tenor.com/L1O2svXjQNAAAAAM/bunny-turtle.gif)
+  ![](https://i0.wp.com/onwardstate.com/wp-content/uploads/2016/05/giphy-gif7.gif)
+  ![](https://media.tenor.com/NnvNNOXwE6cAAAAM/raccoon-gossip.gif)
+  ![](https://i0.wp.com/onwardstate.com/wp-content/uploads/2016/05/giphy-gif-2.gif)
+  ![](https://media.tenor.com/YxVaxJLNHlwAAAAM/rabbit-bunny.gif)
+  ![](https://i0.wp.com/onwardstate.com/wp-content/uploads/2016/05/imgur-gif-1.gif)
+  ![](https://media.tenor.com/-JMlvM0F--YAAAAM/racoon-blanket.gif)
+  ![](https://i0.wp.com/onwardstate.com/wp-content/uploads/2016/05/giphy-gif-4.gif)
+  ![](https://i0.wp.com/onwardstate.com/wp-content/uploads/2016/05/giphy-gif-6.gif)
+  ![](https://media.tenor.com/k2MyATssuKcAAAAM/racoon.gif)
+  ![](https://media.tenor.com/fxUFzpoSFycAAAAM/viralhog-raccoon.gif)
+  ![](https://media.tenor.com/5OxIp2wuOjwAAAAM/bunny-eating.gif)
+  ![](https://media.tenor.com/RvDOQ-01WwAAAAAM/unspeakable-violence-bunny-rabbit.gif)
+  ![](https://media.tenor.com/QLxEGD8DHlMAAAAM/giraffe-dum.gif)
+  ![](https://media.tenor.com/44B5GgMqCEAAAAAM/bear-bear-calling.gif)
+</div>
